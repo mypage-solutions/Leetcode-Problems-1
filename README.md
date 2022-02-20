@@ -26,7 +26,7 @@
 10. [Two Sum](#two-sum)
 
 #### Integer to Roman
-<a href="https://leetcode.com/problems/integer-to-roman/" target="_blank"><em>Description</em></a>
+<a href="https://leetcode.com/problems/integer-to-roman/"><em>Description</em></a>
 ```java
 public static String intToRoman(int num) {
         String[] m = {"", "M", "MM", "MMM"};
@@ -46,7 +46,7 @@ public static String intToRoman(int num) {
 <br>
 
 #### Find First and Last Position of Element in Sorted Array
-<a href="https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/" target="_blank"><em>Description</em></a>
+<a href="https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/"><em>Description</em></a>
 ```java
 public static int[] searchRange(int[] nums, int target) {
         int[] ans = new int[2];
@@ -71,7 +71,7 @@ public static int[] searchRange(int[] nums, int target) {
 <br>
 
 #### Minimum Sum of Four Digit Number After Splitting Digits
-<a href="https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/" target="_blank"><em>Description</em></a>
+<a href="https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/"><em>Description</em></a>
 ```java
 public static int minimumSum(int num) {
         int[] arr = new int[4];
@@ -88,7 +88,7 @@ public static int minimumSum(int num) {
 <br>
 
 #### Maximum Number of Words Found in Sentences
-<a href="https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/" target="_blank"><em>Description</em></a>
+<a href="https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/"><em>Description</em></a>
 ```java
 public static int mostWordsFound(String[] sentences) {
         int max = Integer.MIN_VALUE;
@@ -102,7 +102,7 @@ public static int mostWordsFound(String[] sentences) {
 <br>
 
 #### Swap Nodes in Pairs
-<a href="https://leetcode.com/problems/swap-nodes-in-pairs/" target="_blank"><em>Description</em></a>
+<a href="https://leetcode.com/problems/swap-nodes-in-pairs/"><em>Description</em></a>
 ```java
 public class ListNode {
         int val;
@@ -133,7 +133,7 @@ public class ListNode {
 <br>
 
 #### Reverse Words in a String
-<a href="https://leetcode.com/problems/reverse-words-in-a-string/" target="_blank"><em>Description</em></a>
+<a href="https://leetcode.com/problems/reverse-words-in-a-string/"><em>Description</em></a>
 ```java
 public static String reverseWords(String words) {
         String[] arrayOfWords = words.split("\\s+");
@@ -147,7 +147,7 @@ public static String reverseWords(String words) {
 <br>
 
 #### Multiply Strings
-<a href="https://leetcode.com/problems/multiply-strings/" target="_blank"><em>Description</em></a>
+<a href="https://leetcode.com/problems/multiply-strings/"><em>Description</em></a>
 ```java
 public static String multiply(String num1, String num2) {
         BigInteger a = new BigInteger(num1);
@@ -158,7 +158,7 @@ public static String multiply(String num1, String num2) {
 <br>
 
 #### Reverse Integer
-<a href="https://leetcode.com/problems/reverse-integer/" target="_blank"><em>Description</em></a>
+<a href="https://leetcode.com/problems/reverse-integer/"><em>Description</em></a>
 ```java
 public static int reverse(int x) {
         int min = Integer.MIN_VALUE;
@@ -181,7 +181,7 @@ public static int reverse(int x) {
 <br>
 
 #### Remove Duplicates from Sorted Array
-<a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/" target="_blank"><em>Description</em></a>
+<a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/"><em>Description</em></a>
 ```java
 public static int removeDuplicates(int[] nums) {
         List<Integer> list = new ArrayList<>();
@@ -199,7 +199,7 @@ public static int removeDuplicates(int[] nums) {
 <br>
 
 #### Two Sum
-<a href="https://leetcode.com/problems/two-sum/" target="_blank"><em>Description</em></a>
+<a href="https://leetcode.com/problems/two-sum/"><em>Description</em></a>
 ```java
 public static int[] twoSum(int[] nums, int target) {
         int[] indices = new int[2];
