@@ -49,7 +49,7 @@ public static String intToRoman(int num) {
 <a href="https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/"><em>Description</em></a>
 ```java
 public static int[] searchRange(int[] nums, int target) {
-        int[] ans = new int[2];
+        int[] result = new int[2];
         int start = -1;
         int end = -1;
         for (int i = 0; i < nums.length; i++) {
@@ -63,9 +63,9 @@ public static int[] searchRange(int[] nums, int target) {
                 break;
             }
         }
-        ans[0] = start;
-        ans[1] = end;
-        return ans;
+        result[0] = start;
+        result[1] = end;
+        return result;
     }
 ```
 <br>
@@ -74,14 +74,14 @@ public static int[] searchRange(int[] nums, int target) {
 <a href="https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/"><em>Description</em></a>
 ```java
 public static int minimumSum(int num) {
-        int[] arr = new int[4];
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = num % 10;
+        int[] array = new int[4];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = num % 10;
             num = num / 10;
         }
-        Arrays.sort(arr);
-        int a = arr[0] * 10 + arr[3];
-        int b = arr[1] * 10 + arr[2];
+        Arrays.sort(array);
+        int a = array[0] * 10 + array[3];
+        int b = array[1] * 10 + array[2];
         return a + b;
     }
 ```
@@ -93,7 +93,7 @@ public static int minimumSum(int num) {
 public static int mostWordsFound(String[] sentences) {
         int max = Integer.MIN_VALUE;
         for (String sentence : sentences) {
-            List<String> list = Arrays.asList(sentence.split(" "));
+            List<String> list = Arrays.asList(sentence.split("\\s+"));
             max = Math.max(max, list.size());
         }
         return max;
@@ -123,9 +123,9 @@ public class ListNode {
 
     public ListNode swapPairs(ListNode head) {
         if (head == null || head.next == null) return head;
-        int tmp = head.next.val;
+        int temp = head.next.val;
         head.next.val = head.val;
-        head.val = tmp;
+        head.val = temp;
         head.next.next = swapPairs(head.next.next);
         return head;
     }
@@ -150,9 +150,9 @@ public static String reverseWords(String words) {
 <a href="https://leetcode.com/problems/multiply-strings/"><em>Description</em></a>
 ```java
 public static String multiply(String num1, String num2) {
-        BigInteger a = new BigInteger(num1);
-        BigInteger b = new BigInteger(num2);
-        return a.multiply(b).toString();
+        BigInteger value1 = new BigInteger(num1);
+        BigInteger value2 = new BigInteger(num2);
+        return value1.multiply(value2).toString();
     }
 ```
 <br>
