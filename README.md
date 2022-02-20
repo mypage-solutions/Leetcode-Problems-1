@@ -3,7 +3,7 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/mypage-solutions/Leetcode-Problems-1)
 ![GitHub last commit](https://img.shields.io/github/last-commit/mypage-solutions/Leetcode-Problems-1)
 
-# Leetcode Problems Solution 
+# Solutions for LeetCode Problems
 
 ## Table of Contents
 
