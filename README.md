@@ -228,7 +228,7 @@ public static int[] twoSum(int[] nums, int target) {
   
 ## Project Status
 
-Project is: _complete_.
+ _Complete_.
 
 ## Contact
 
