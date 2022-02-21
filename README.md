@@ -121,14 +121,15 @@ public class ListNode {
             this.next = next;
         }
     }
-
-    public ListNode swapPairs(ListNode head) {
+```
+```java
+public ListNode swapPairs(ListNode head) {
         if (head == null || head.next == null) return head;
         int temp = head.next.val;
         head.next.val = head.val;
         head.val = temp;
         head.next.next = swapPairs(head.next.next);
-        return head;
+        return head;    
     }
 ```
 <br>
